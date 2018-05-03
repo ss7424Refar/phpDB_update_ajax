@@ -21,3 +21,4 @@ for ($i = 0; $i < count($deleteIDArray); $i++){
 
 }
 echo json_encode($hasError);
+$conn->close();
